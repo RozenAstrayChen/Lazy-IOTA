@@ -1,0 +1,5 @@
+*/.DS_Store
+*.pyc
+find . -name "*.pyc" -exec git rm -f "{}" \;
+main.spec
+dist
